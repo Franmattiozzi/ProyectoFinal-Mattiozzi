@@ -332,9 +332,6 @@
         }
     }
 
-    #sucursal-pal{
-
-    }
 
     .pie-pagina .grupo1{
         align-items: center;
@@ -370,6 +367,19 @@
 
     #carouselExampleCaptions{
         margin-bottom: 100px;
+    }
+
+    #carouselExampleDark{
+        h2{
+            background-color: white;
+        }
+        p{
+            background-color: white;
+        }
+    }
+
+    #sucursales{
+        margin-top: 100px;
     }
 
     #articulo .container{

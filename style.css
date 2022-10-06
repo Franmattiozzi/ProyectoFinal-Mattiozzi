@@ -113,7 +113,7 @@
     font-weight: bold;
     line-height: 30px;
   }
-  #beneficios #beneficios li:hover {
+  #beneficios li:hover {
     font-size: 2em;
   }
   #final {
@@ -161,5 +161,213 @@
   }
   .pie-pagina .box h2 {
     display: none;
+  }
+}
+@media (min-width: 720px) {
+  header {
+    width: 100%;
+    margin: 0;
+  }
+  header .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  header .nav {
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+  }
+  header .nav a:hover {
+    font-size: 1.12em;
+  }
+  #hero h1 {
+    font-size: 5em;
+    -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s;
+    -webkit-animation-name: slidein;
+            animation-name: slidein;
+  }
+  #hero button {
+    -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s;
+    -webkit-animation-name: slideup;
+            animation-name: slideup;
+  }
+  #final h2 {
+    font-size: 5vw;
+  }
+  #final button {
+    font-size: 1vw;
+  }
+  #beneficios {
+    background-image: url("./images/pesas.jpg");
+    background-repeat: no-repeat;
+    background-size: 700px 420px;
+    background-position: 800px 140px;
+  }
+  #beneficios .container {
+    text-align: initial;
+  }
+  #beneficios ul {
+    margin-left: 20px;
+  }
+  #beneficios li {
+    font-size: 30px;
+    margin: 10px;
+    margin-bottom: 40px;
+  }
+  #nuestros-productos {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+  #nuestros-productos {
+    padding: 80px 120px;
+  }
+  #nuestros-productos h2 {
+    margin-top: 0;
+    font-size: 3.2em;
+    text-shadow: 2px 2px 10px rgb(131, 131, 131);
+  }
+  #nuestros-productos h3 {
+    margin-top: 10px;
+    font-size: 2em;
+  }
+  #nuestros-productos p {
+    display: flex;
+    margin-top: 30px;
+    font-size: 1.2em;
+  }
+  #nuestros-productos .muestras {
+    display: flex;
+    justify-content: center;
+  }
+  #nuestros-productos .carta {
+    max-width: 100%;
+    max-height: 100%;
+    height: 900px;
+    width: 2500px;
+  }
+  #nuestros-productos .carta {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    background-position: center;
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    padding: 80px;
+    margin: 20px;
+    border-radius: 15px;
+  }
+  #nuestros-productos .carta:hover {
+    box-shadow: 5px 5px 100px rgba(0, 0, 0, 0.5);
+  }
+  #sucursal-bel {
+    height: 500px;
+    background-image: url("./images/ubicacion-bel.jpg");
+    background-repeat: no-repeat;
+    background-size: 600px 400px;
+    background-position: 700px 140px;
+  }
+  #sucursal-bel .container {
+    display: flex;
+    padding: 120px 12px;
+    text-align: center;
+    padding: 250px 120px;
+  }
+  #sucursal-bel h3 {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  #sucursal-pal {
+    height: 500px;
+    background-image: url("./images/ubicacion-pal.jpg");
+    background-repeat: no-repeat;
+    background-size: 600px 400px;
+    background-position: 700px 140px;
+    margin-bottom: 200px;
+  }
+  #sucursal-pal .container {
+    display: flex;
+    padding: 120px 12px;
+    text-align: center;
+    padding: 250px 120px;
+  }
+  #sucursal-pal h3 {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  .pie-pagina .grupo1 {
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+    max-height: 50px;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 380px;
+  }
+  .pie-pagina .box p {
+    text-align: center;
+    text-align: center;
+    font-size: 10px;
+    margin-left: 10px;
+  }
+  .pie-pagina .box div img {
+    width: 120px;
+  }
+  .pie-pagina .box h2 {
+    display: block;
+    color: black;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  #carouselExampleCaptions {
+    margin-bottom: 100px;
+  }
+  #carouselExampleDark h2 {
+    background-color: white;
+  }
+  #carouselExampleDark p {
+    background-color: white;
+  }
+  #sucursales {
+    margin-top: 100px;
+  }
+  #articulo .container {
+    margin: 0 100px 0 100px;
+  }
+  @-webkit-keyframes slidein {
+    0% {
+      margin-bottom: 100%;
+    }
+    100% {
+      margin-bottom: 0%;
+    }
+  }
+  @keyframes slidein {
+    0% {
+      margin-bottom: 100%;
+    }
+    100% {
+      margin-bottom: 0%;
+    }
+  }
+  @-webkit-keyframes slideup {
+    0% {
+      margin-top: 100%;
+    }
+    100% {
+      margin-top: 0%;
+    }
+  }
+  @keyframes slideup {
+    0% {
+      margin-top: 100%;
+    }
+    100% {
+      margin-top: 0%;
+    }
   }
 }/*# sourceMappingURL=style.css.map */
