@@ -123,7 +123,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: linear-gradient(2deg, rgba(0, 0, 0, 0.76), rgb(180, 179, 179)), url("./Imagenes/press.jpg.jpg");
+    background-image: linear-gradient(2deg, rgba(0, 0, 0, 0.76), rgb(180, 179, 179)), url("../images/press.jpg.jpg");
     background-color: black;
     color: white;
     height: 80vh;
@@ -200,7 +200,7 @@
     font-size: 1vw;
   }
   #beneficios {
-    background-image: url("./images/pesas.jpg");
+    background-image: url("../images/pesas.jpg");
     background-repeat: no-repeat;
     background-size: 700px 420px;
     background-position: 800px 140px;
@@ -220,8 +220,6 @@
     background-color: rgb(255, 255, 255);
     text-align: center;
     color: rgb(0, 0, 0);
-  }
-  #nuestros-productos {
     padding: 80px 120px;
   }
   #nuestros-productos h2 {
@@ -247,8 +245,6 @@
     max-height: 100%;
     height: 900px;
     width: 2500px;
-  }
-  #nuestros-productos .carta {
     background-color: rgb(255, 255, 255);
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     background-position: center;
@@ -260,41 +256,6 @@
   }
   #nuestros-productos .carta:hover {
     box-shadow: 5px 5px 100px rgba(0, 0, 0, 0.5);
-  }
-  #sucursal-bel {
-    height: 500px;
-    background-image: url("./images/ubicacion-bel.jpg");
-    background-repeat: no-repeat;
-    background-size: 600px 400px;
-    background-position: 700px 140px;
-  }
-  #sucursal-bel .container {
-    display: flex;
-    padding: 120px 12px;
-    text-align: center;
-    padding: 250px 120px;
-  }
-  #sucursal-bel h3 {
-    margin-right: 10px;
-    font-weight: bold;
-  }
-  #sucursal-pal {
-    height: 500px;
-    background-image: url("./images/ubicacion-pal.jpg");
-    background-repeat: no-repeat;
-    background-size: 600px 400px;
-    background-position: 700px 140px;
-    margin-bottom: 200px;
-  }
-  #sucursal-pal .container {
-    display: flex;
-    padding: 120px 12px;
-    text-align: center;
-    padding: 250px 120px;
-  }
-  #sucursal-pal h3 {
-    margin-right: 10px;
-    font-weight: bold;
   }
   .pie-pagina .grupo1 {
     align-items: center;
@@ -314,23 +275,11 @@
     font-size: 10px;
     margin-left: 10px;
   }
-  .pie-pagina .box div img {
-    width: 120px;
-  }
   .pie-pagina .box h2 {
     display: block;
     color: black;
     margin-bottom: 10px;
     font-size: 18px;
-  }
-  #carouselExampleCaptions {
-    margin-bottom: 100px;
-  }
-  #carouselExampleDark h2 {
-    background-color: white;
-  }
-  #carouselExampleDark p {
-    background-color: white;
   }
   #sucursales {
     margin-top: 100px;
