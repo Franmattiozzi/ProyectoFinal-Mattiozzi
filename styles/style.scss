@@ -1,4 +1,4 @@
-$mobile: 578px;
+$mobile: 568px;
 $tablet: 768px;
 $desktop: 1024px;
 
@@ -80,32 +80,8 @@ $desktop: 1024px;
             max-width: 100%;
             max-height: 100%;
         }
-        .pie-pagina{
-            margin-top: 0px;
-            margin-bottom: 0px;
-                & .grupo1{
-                align-items: center;
-                width: 100%;
-                height: 100%;
-                background-color: rgb(255, 255, 255);
-                max-width: 100%;
-                max-height: 10px;
-                margin-left: 5px;
-                display: grid;
-                grid-template-columns: repeat(3, 1fr);
-            }
-            .box{
-                & p{
-                    text-align: center;
-                    font-size: 10px;
-                    margin-right: 12px;
-                    margin-top: 15px;
-                }
-                & h2{
-                display: none;
-                }
-            }
-        }
+        
+
 }
 
     @keyframes slidein {
